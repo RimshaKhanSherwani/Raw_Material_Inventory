@@ -1,0 +1,147 @@
+body{
+    background: url("../images/img1.jpeg");
+    background-size: cover;
+    padding: 0px 150px 0pc 150px;
+}
+.topnav {
+    background-color: palevioletred;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active 
+  {
+    background-color: purple;
+    color: white;
+  }
+
+  * {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+  background-color: whitesmoke;
+}
+
+
+input[type=text], input[type=numeric]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: 1px gray solid;
+  background: #ffffff;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color:palevioletred;
+  color: white;
+  padding: 16px 20px;
+  margin-top: 5px;
+  margin-left: 420px;
+  border: 1px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.container1
+{
+  background-size: auto;
+  background-image: url("../images/img1.jpeg");
+}
+table {
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+  color: black;
+  font-size: 16pt;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+  ;
+}
+
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid black;
+  border-radius: 9px;
+  border-style:ridge;
+  background: #ffffff;
+  width: 300px;
+  padding:10px;
+  margin-left: 430px;
+}
+.addbtn
+{
+  background-color: #0BDA51;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 0.5px solid #00A36C;
+  padding-top: 3px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.price-field
+{
+  display: inline-block;
+  width: 40%;
+}
+.total-field
+{
+  display: inline-block;
+  width: 40%;
+  margin-left: 50px;
+}
+
+.pricelogtn{
+  background-color: #0BDA51;
+  color: #0e0e0e;
+  border-radius: 5px;
+  border: 0.5px solid #ffffff;
+  padding-top: 3px;
+  margin-top: 50px;
+  margin-left: 490px;
+  font-weight: bold;
+  width: 180px;
+  height: 35px;
+}
